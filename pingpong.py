@@ -84,7 +84,7 @@ class Ball():
 
 def menutext():
     text = font.render('Welcome to Pong By Jordi', 20, white)
-    text1 = font.render('Press 1 for Single player 2 for Multiplayer', 20, white)
+    text1 = font.render('Press 1 to start', 20, white)
     text1rect = text1.get_rect()
     text1rect.center = (400, 400)
     textrect = text.get_rect()
